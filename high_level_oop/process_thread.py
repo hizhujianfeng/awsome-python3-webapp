@@ -19,7 +19,7 @@ import subprocess
 
 # windows 可以用multiprocessing模块  实现多进程：子进程要执行的代码
 def run_proc(name):
-    print('Run child process %s (%s)' %(name, os.getpid()))
+    print('Run child process %s (%s)' % (name, os.getpid()))
 
 if __name__ == '__main__':
     print('Parent process %s.' % os.getpid())
