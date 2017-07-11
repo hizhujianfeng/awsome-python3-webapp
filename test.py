@@ -2,6 +2,11 @@
 # -*- coding: utf-8 -*-
 
 from base.my_lib import *
+import matplotlib.pyplot as plt
+
+
+plt.plot([1, 2, 3, 5])
+plt.show()
 
 # from collections import Iterator
 # print ("hello,world")
@@ -38,7 +43,6 @@ from base.my_lib import *
 # print(10/3)
 # print(10//3)
 # print(10%3)
-
 
 #
 # n = 123
