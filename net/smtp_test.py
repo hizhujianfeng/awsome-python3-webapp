@@ -31,7 +31,7 @@ def _format_addr(s):
 from_addr = 'zhujianfeng@tydic.com'
 password = 'zjf1223'
 
-to_addr = '1454372513@qq.com'
+to_addr = '2578136777@qq.com'
 smtp_server = 'mail.tydic.com'
 
 msg = MIMEMultipart()
